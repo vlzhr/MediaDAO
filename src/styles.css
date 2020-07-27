@@ -1,0 +1,167 @@
+.App {
+  width: 90%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 50px;
+  color: #111;
+  font-weight: bold;
+    padding-left: 35px;
+}
+
+h1 span {
+  color: #ff5a46;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  white-space: pre-wrap;
+  background: #fff;
+  width: 300px;
+  text-overflow: ellipsis;
+  height: auto;
+  padding: 16px 32px;
+  /*border-radius: 4px;*/
+    box-sizing: border-box;
+  margin: 8px;
+    box-shadow: 0 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.card-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #ff5a46;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.card ul {
+    padding-left: 0;
+  list-style-type: none;
+}
+
+.card li {
+  color: #111;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 0;
+  margin-top: 16px;
+  padding-left: 0;
+}
+
+.card li:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card li .tag {
+  background: #3ccf91;
+  color: black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.card .status.onvote {
+    color: blue;
+}
+.card .status.approved {
+    color: forestgreen;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  /*background: url("back1.jpg") no-repeat fixed;*/
+    background: snow;
+    background-size: cover;
+}
+
+.submit-article-desk {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    transition: background-color .7s;
+    background-color: white;
+    width: 160px;
+    text-align: center;
+}
+.App nav li:hover {
+    background-color: rgba(0,50,220,0.5);
+}
+
+li.approved a {
+    text-decoration: none;
+    color: rgb(0,50,220);
+}
+
+
+input, textarea, button {
+    box-sizing: border-box;
+    display: block;
+    margin: 5px 25px;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 295px;
+}
+
+textarea {
+    clear: both;
+    width: 600px;
+}
+
+body {
+    margin: 0;
+}
+
+.articles {
+    background: white;
+    padding: 5%;
+
+}
+
+.articles .card {
+    border-radius: 0;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+li.button {
+    cursor: pointer;
+}
+
+.article {
+    background: white;
+    display: none;
+    padding: 5% 5% 5% 15%;
+    border-left: 3px black solid;
+}
+
+.article h1 {
+    padding-left: 0;
+}
