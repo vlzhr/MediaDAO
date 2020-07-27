@@ -7,7 +7,7 @@ Multi-layer cross-chain DAO built for running community driven media spaces.
 
 ## Demo
 
-Watch the 4min video presenting MediaDAO functionality: https://youtu.be/Ex4XAbJqPMo
+Watch the 4min video presenting MediaDAO functionality: https://youtu.be/Ex4XAbJqPMo 👈
 
 - media space: http://78.47.48.209.xip.io:3000
 
