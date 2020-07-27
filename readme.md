@@ -49,4 +49,4 @@ Watch the 4min video presenting MediaDAO functionality: https://youtu.be/Ex4XAbJ
 
 ## What next?
 
-Implementing MediaDAO model to build a community for a real product. [https://certificado.one](Certificado.one), we are coming 😎
+Implementing MediaDAO model to build a community for a real product. [Certificado](https://certificado.one), we are coming 😎
