@@ -42,13 +42,9 @@ Watch the 4min video presenting MediaDAO functionality: https://youtu.be/Ex4XAbJ
 ![dao it-structure](https://server.vlzhr.top/hosted/8350098dao.png)
 
 - Aragon DAO mechanics
-
 - Waves Protocol data states
-
 - Ride smart contracts
-
 - Aragon Connet
-
 - Waves Signer
 
 ## What next?
