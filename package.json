@@ -24,7 +24,7 @@
     "react-google-login": "^5.1.21",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "typescript": "3.8.3"
